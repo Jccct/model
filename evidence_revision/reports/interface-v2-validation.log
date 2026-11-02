@@ -1,0 +1,19 @@
+test_candidates_balanced_pairs_and_identifiers (test_continuation.Continuation.test_candidates_balanced_pairs_and_identifiers) ... ok
+test_own_answers_resume_and_trajectory_denominator (test_continuation.Continuation.test_own_answers_resume_and_trajectory_denominator) ... ok
+test_certificate_alternative_and_stale (test_system.Pipeline.test_certificate_alternative_and_stale) ... ok
+test_mock_resume_metrics_and_faults (test_system.Pipeline.test_mock_resume_metrics_and_faults) ... ok
+test_pairs_and_leakage (test_system.Pipeline.test_pairs_and_leakage) ... ok
+test_parse_rejects_malformed_and_duplicate (test_system.Pipeline.test_parse_rejects_malformed_and_duplicate) ... ok
+test_preflight_budget (test_system.Pipeline.test_preflight_budget) ... ok
+test_and_or_and_independent_oracle_exhaustive (test_system.Semantics.test_and_or_and_independent_oracle_exhaustive) ... ok
+test_limits (test_system.Semantics.test_limits) ... ok
+test_same_label_not_equivalence (test_system.Semantics.test_same_label_not_equivalence) ... ok
+test_shared_root_withdrawal (test_system.Semantics.test_shared_root_withdrawal) ... ok
+test_six_trajectories (test_system.Semantics.test_six_trajectories) ... ok
+test_source_scope_and_version_restore (test_system.Semantics.test_source_scope_and_version_restore) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.328s
+
+OK
+{"condition_pair_comparisons":36,"histories":24,"independent_labels":"all rounds agree","pair_groups":12,"samples":72}

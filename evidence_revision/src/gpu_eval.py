@@ -7,6 +7,8 @@ from dataset import BASE, STRONG, generate, export
 from evaluation import parse, certificate, score, fingerprint
 from logic import stable, digest
 
+INTERFACE = '输出约束：action必须是非空字符串，且只能取proceed、stop、seek_evidence、review。固定映射：supported→proceed，refuted→stop，unknown→seek_evidence，conflict→review。positive_evidence、negative_evidence、rule_ids必须为字符串ID列表。只输出一个JSON对象，不加Markdown围栏或解释。'
+
 class LocalCUDA:
     def __init__(self, model_path, revision, max_context=4096):
         import torch
@@ -47,11 +49,13 @@ class MockEngine:
     def __call__(self,messages):
         return stable(dict(state='unknown',positive_evidence=[],negative_evidence=[],rule_ids=[],action='seek_evidence')),dict(input_tokens=None,output_tokens=None)
 
-def mock_or_local(engine, output, strong=False, max_calls=100):
+def mock_or_local(engine, output, strong=False, max_calls=100, explicit_interface=False):
     """Every trajectory retains its own actual raw answers, including malformed ones."""
     rows=generate();inputs=export(rows,strong)
+    if explicit_interface:
+        for x in inputs:x["messages"][0]["content"] += "\n"+INTERFACE
     trajectories=[json.loads(l) for l in Path('data/fixed_trajectories.jsonl').read_text().splitlines()]
-    cfg=dict(engine=engine.metadata,strong=strong,code_hash=fingerprint(),data_hash=digest(rows),trajectory_hash=digest(trajectories),max_new_tokens=256,do_sample=False,seed=42)
+    cfg=dict(engine=engine.metadata,strong=strong,explicit_interface=explicit_interface,code_hash=fingerprint(),data_hash=digest(rows),trajectory_hash=digest(trajectories),max_new_tokens=256,do_sample=False,seed=42)
     p=Path(output);p.parent.mkdir(parents=True,exist_ok=True)
     logs=[json.loads(l) for l in p.read_text().splitlines()] if p.exists() else []
     if any(l['config']!=cfg for l in logs):raise ValueError('config changed; use new output path')
@@ -76,7 +80,7 @@ def mock_or_local(engine, output, strong=False, max_calls=100):
         return log
     for row,inp in zip(rows,inputs):ask(row['sample_id'],inp['messages'],'endpoint',{})
     for tr in trajectories:
-        messages=[dict(role='system',content=BASE+('\n'+STRONG if strong else ''))]
+        messages=[dict(role='system',content=BASE+('\n'+STRONG if strong else '')+('\n'+INTERFACE if explicit_interface else ''))]
         previous=0
         for turn,index in enumerate(tr['queried_round_indices']):
             if turn==0:
@@ -105,8 +109,8 @@ def mock_or_local(engine, output, strong=False, max_calls=100):
     return report
 
 if __name__=='__main__':
-    a=argparse.ArgumentParser();a.add_argument('--model-path');a.add_argument('--revision');a.add_argument('--mock',action='store_true');a.add_argument('--strong',action='store_true');a.add_argument('--max-calls',type=int,default=100);a.add_argument('--out',required=True);args=a.parse_args()
+    a=argparse.ArgumentParser();a.add_argument('--model-path');a.add_argument('--revision');a.add_argument('--mock',action='store_true');a.add_argument('--strong',action='store_true');a.add_argument('--explicit-interface',action='store_true');a.add_argument('--max-calls',type=int,default=100);a.add_argument('--out',required=True);args=a.parse_args()
     if not args.mock and (not args.model_path or not args.revision):a.error('local model path and exact revision required')
     engine=MockEngine() if args.mock else LocalCUDA(args.model_path,args.revision)
-    r=mock_or_local(engine,args.out,args.strong,args.max_calls)
+    r=mock_or_local(engine,args.out,args.strong,args.max_calls,args.explicit_interface)
     print(stable(dict(engine=r['engine'] if args.mock else 'CUDA (metadata in report)',logical_units=r['logical_units'],actual_calls=r['actual_calls'],trajectory_success=r['trajectory_success'])))
