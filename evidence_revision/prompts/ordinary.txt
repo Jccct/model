@@ -1,0 +1,1 @@
+你在虚构实验中判断 can_enter(小林)。只按给定正向规则推理，不使用常识。输出且仅输出 JSON，字段 state（supported/refuted/unknown/conflict）、positive_evidence（记录ID列表）、negative_evidence（记录ID列表）、rule_ids（规则ID列表）、action。无需长推理。旧助手回答不是证据。

@@ -1,0 +1,2510 @@
+{
+  "overall": {
+    "accuracy": {
+      "numerator": 12,
+      "denominator": 72,
+      "value": 0.16666666666666666
+    },
+    "macro_f1": 0.07142857142857142,
+    "classes": {
+      "supported": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 36,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      },
+      "refuted": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      },
+      "unknown": {
+        "recall": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 12,
+          "denominator": 72,
+          "value": 0.16666666666666666
+        }
+      },
+      "conflict": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      }
+    },
+    "parse_coverage": {
+      "numerator": 72,
+      "denominator": 72,
+      "value": 1.0
+    },
+    "invalid_output": {
+      "numerator": 0,
+      "denominator": 72,
+      "value": 0.0
+    },
+    "network_error": 0,
+    "unrun": 0,
+    "action_accuracy": {
+      "numerator": 12,
+      "denominator": 72,
+      "value": 0.16666666666666666
+    },
+    "pair_joint": {
+      "numerator": 6,
+      "denominator": 36,
+      "value": 0.16666666666666666
+    },
+    "pair_difference": {
+      "numerator": 0,
+      "denominator": 36,
+      "value": 0.0
+    },
+    "pair_coverage": {
+      "numerator": 36,
+      "denominator": 36,
+      "value": 1.0
+    },
+    "pair_decomposition": {
+      "both_correct": 6,
+      "both_wrong": 30,
+      "one_correct": 0,
+      "invalid_or_unrun": 0
+    },
+    "withdrawal": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "unsupported_reversal": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "independent_retention": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "irrelevant_retention": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "conflict_recognition": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "restoration": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "certificate_validity": {
+      "numerator": 12,
+      "denominator": 72,
+      "value": 0.16666666666666666
+    },
+    "stale_evidence": {
+      "numerator": 0,
+      "denominator": 72,
+      "value": 0.0
+    },
+    "full_trajectory_success": null,
+    "families": 6
+  },
+  "by_condition": {
+    "A": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 12,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "B": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 12,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "C": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 12,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "by_case": {
+    "S01": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S02": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 6,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S03": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 6,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S04": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 6,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S05": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 6,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S06": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 6,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    }
+  },
+  "by_pair_type": {
+    "legal_path": {
+      "accuracy": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 18,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 36,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 3,
+        "denominator": 18,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 18,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 3,
+        "both_wrong": 15,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "assistant_only": {
+      "accuracy": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 18,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 36,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 3,
+        "denominator": 18,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 18,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 3,
+        "both_wrong": 15,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 6,
+        "denominator": 36,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "errors": [
+    {
+      "sample_id": "S02/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/C",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/C",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/C",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/C",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/C",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/C",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/C",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/C",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    }
+  ],
+  "notes": [
+    "This run explicitly includes own-answer fixed trajectories.",
+    "Mock engine results are engineering checks only; real CUDA inference requires lab access."
+  ],
+  "trajectory_details": [
+    {
+      "trajectory_id": "independent_then_restore",
+      "rounds": [
+        {
+          "turn": 0,
+          "gold": "supported",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        },
+        {
+          "turn": 1,
+          "gold": "supported",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        },
+        {
+          "turn": 2,
+          "gold": "unknown",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": true
+        },
+        {
+          "turn": 3,
+          "gold": "supported",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        }
+      ],
+      "success": false
+    },
+    {
+      "trajectory_id": "counterevidence_then_conflict",
+      "rounds": [
+        {
+          "turn": 0,
+          "gold": "supported",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        },
+        {
+          "turn": 1,
+          "gold": "refuted",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        },
+        {
+          "turn": 2,
+          "gold": "conflict",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        },
+        {
+          "turn": 3,
+          "gold": "supported",
+          "prediction": {
+            "action": "seek_evidence",
+            "negative_evidence": [],
+            "positive_evidence": [],
+            "rule_ids": [],
+            "state": "unknown"
+          },
+          "correct": false
+        }
+      ],
+      "success": false
+    }
+  ],
+  "trajectory_success": {
+    "numerator": 0,
+    "denominator": 2
+  },
+  "engine": {
+    "backend": "mock-constant-unknown",
+    "model": "none"
+  },
+  "actual_calls": 43,
+  "logical_units": 80
+}

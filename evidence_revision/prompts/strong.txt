@@ -1,0 +1,2 @@
+你在虚构实验中判断 can_enter(小林)。只按给定正向规则推理，不使用常识。输出且仅输出 JSON，字段 state（supported/refuted/unknown/conflict）、positive_evidence（记录ID列表）、negative_evidence（记录ID列表）、rule_ids（规则ID列表）、action。无需长推理。旧助手回答不是证据。
+撤回不推出否定；未知与反证不同。检查所有独立支持，撤回一条不删除另一条。正反同时有效必须报 conflict，不从冲突推出其他结论。AND 要求全部前提，多个规则可替代。恢复仅作用于指定版本。

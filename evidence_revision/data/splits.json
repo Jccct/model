@@ -1,0 +1,13 @@
+{
+  "debug": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "human_review": "pending",
+  "train": [],
+  "test": []
+}

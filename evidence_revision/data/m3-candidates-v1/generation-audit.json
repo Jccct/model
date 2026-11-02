@@ -1,0 +1,30 @@
+{
+  "attempted_families": 100,
+  "accepted_families": 100,
+  "logical_units": 1200,
+  "rejected": [],
+  "rejection_ratio": 0.0,
+  "states": {
+    "supported": 300,
+    "refuted": 300,
+    "unknown": 300,
+    "conflict": 300
+  },
+  "domains": {
+    "通行": 624,
+    "设备": 576
+  },
+  "structures": {
+    "depth1_andFalse_orFalse": 192,
+    "depth2_andFalse_orFalse": 192,
+    "depth3_andFalse_orTrue": 192,
+    "depth4_andFalse_orTrue": 192,
+    "depth1_andTrue_orFalse": 144,
+    "depth2_andTrue_orFalse": 96,
+    "depth3_andTrue_orTrue": 96,
+    "depth4_andTrue_orTrue": 96
+  },
+  "human_review": "pending",
+  "status": "candidates only; human seed review gate remains open; not frozen formal audit",
+  "model_calls": 0
+}

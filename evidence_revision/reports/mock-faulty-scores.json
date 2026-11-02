@@ -1,0 +1,2296 @@
+{
+  "overall": {
+    "accuracy": {
+      "numerator": 8,
+      "denominator": 72,
+      "value": 0.1111111111111111
+    },
+    "macro_f1": 0.06666666666666667,
+    "classes": {
+      "supported": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 36,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      },
+      "refuted": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      },
+      "unknown": {
+        "recall": {
+          "numerator": 8,
+          "denominator": 12,
+          "value": 0.6666666666666666
+        },
+        "precision": {
+          "numerator": 8,
+          "denominator": 48,
+          "value": 0.16666666666666666
+        }
+      },
+      "conflict": {
+        "recall": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0
+        },
+        "precision": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null
+        }
+      }
+    },
+    "parse_coverage": {
+      "numerator": 48,
+      "denominator": 72,
+      "value": 0.6666666666666666
+    },
+    "invalid_output": {
+      "numerator": 24,
+      "denominator": 72,
+      "value": 0.3333333333333333
+    },
+    "network_error": 0,
+    "unrun": 0,
+    "action_accuracy": {
+      "numerator": 8,
+      "denominator": 72,
+      "value": 0.1111111111111111
+    },
+    "pair_joint": {
+      "numerator": 4,
+      "denominator": 36,
+      "value": 0.1111111111111111
+    },
+    "pair_difference": {
+      "numerator": 0,
+      "denominator": 24,
+      "value": 0.0
+    },
+    "pair_coverage": {
+      "numerator": 24,
+      "denominator": 36,
+      "value": 0.6666666666666666
+    },
+    "pair_decomposition": {
+      "both_correct": 4,
+      "both_wrong": 20,
+      "one_correct": 0,
+      "invalid_or_unrun": 12
+    },
+    "withdrawal": {
+      "numerator": 8,
+      "denominator": 12,
+      "value": 0.6666666666666666
+    },
+    "unsupported_reversal": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "independent_retention": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "irrelevant_retention": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "conflict_recognition": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "restoration": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "certificate_validity": {
+      "numerator": 8,
+      "denominator": 72,
+      "value": 0.1111111111111111
+    },
+    "stale_evidence": {
+      "numerator": 0,
+      "denominator": 48,
+      "value": 0.0
+    },
+    "full_trajectory_success": null,
+    "families": 6
+  },
+  "by_condition": {
+    "A": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 12,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "B": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "macro_f1": 0.07142857142857142,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 12,
+        "value": 0.16666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 24,
+        "value": 0.16666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "C": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "invalid_output": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "pair_coverage": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 12
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "by_case": {
+    "S01": {
+      "accuracy": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "macro_f1": 0.2,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 8,
+            "denominator": 12,
+            "value": 0.6666666666666666
+          },
+          "precision": {
+            "numerator": 8,
+            "denominator": 8,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "pair_joint": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 4,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S02": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 4,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S03": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 4,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S04": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 4,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S05": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 4,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S06": {
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "macro_f1": 0.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_joint": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 0,
+        "both_wrong": 4,
+        "one_correct": 0,
+        "invalid_or_unrun": 2
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    }
+  },
+  "by_pair_type": {
+    "legal_path": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "macro_f1": 0.06666666666666667,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 18,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 6,
+            "value": 0.6666666666666666
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 36,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 12,
+        "denominator": 36,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 18,
+        "value": 0.1111111111111111
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 18,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 6
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "assistant_only": {
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "macro_f1": 0.06666666666666667,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 18,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 6,
+            "value": 0.6666666666666666
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 24,
+            "value": 0.16666666666666666
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 36,
+        "value": 0.6666666666666666
+      },
+      "invalid_output": {
+        "numerator": 12,
+        "denominator": 36,
+        "value": 0.3333333333333333
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "pair_joint": {
+        "numerator": 2,
+        "denominator": 18,
+        "value": 0.1111111111111111
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 18,
+        "value": 0.6666666666666666
+      },
+      "pair_decomposition": {
+        "both_correct": 2,
+        "both_wrong": 10,
+        "one_correct": 0,
+        "invalid_or_unrun": 6
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 6,
+        "value": 0.6666666666666666
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "certificate_validity": {
+        "numerator": 4,
+        "denominator": 36,
+        "value": 0.1111111111111111
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "errors": [
+    {
+      "sample_id": "S01/legal_path/supported/C",
+      "gold": "unknown",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S01/legal_path/refuted/C",
+      "gold": "unknown",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S01/assistant_only/supported/C",
+      "gold": "unknown",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S01/assistant_only/refuted/C",
+      "gold": "unknown",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S02/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S02/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S03/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/supported/C",
+      "gold": "refuted",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/legal_path/refuted/C",
+      "gold": "refuted",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/supported/C",
+      "gold": "refuted",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/A",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/B",
+      "gold": "refuted",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S04/assistant_only/refuted/C",
+      "gold": "refuted",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/legal_path/supported/C",
+      "gold": "conflict",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/legal_path/refuted/C",
+      "gold": "conflict",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/supported/C",
+      "gold": "conflict",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/A",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/B",
+      "gold": "conflict",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "conflict_missed"
+    },
+    {
+      "sample_id": "S05/assistant_only/refuted/C",
+      "gold": "conflict",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/legal_path/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/legal_path/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/supported/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/A",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "current_evidence_failure"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/B",
+      "gold": "supported",
+      "prediction": {
+        "action": "seek_evidence",
+        "negative_evidence": [],
+        "positive_evidence": [],
+        "rule_ids": [],
+        "state": "unknown"
+      },
+      "category": "over_unknown"
+    },
+    {
+      "sample_id": "S06/assistant_only/refuted/C",
+      "gold": "supported",
+      "prediction": null,
+      "category": "invalid_output"
+    }
+  ],
+  "notes": [
+    "mock is engineering validation only",
+    "trajectory not evaluated: endpoint-only run",
+    "withdrawal scope errors need manual review; state alone does not identify mechanism",
+    "M2 descriptive only; no significance claims"
+  ]
+}

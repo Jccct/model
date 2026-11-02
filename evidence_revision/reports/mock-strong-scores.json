@@ -1,0 +1,1671 @@
+{
+  "overall": {
+    "accuracy": {
+      "numerator": 72,
+      "denominator": 72,
+      "value": 1.0
+    },
+    "macro_f1": 1.0,
+    "classes": {
+      "supported": {
+        "recall": {
+          "numerator": 36,
+          "denominator": 36,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 36,
+          "denominator": 36,
+          "value": 1.0
+        }
+      },
+      "refuted": {
+        "recall": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        }
+      },
+      "unknown": {
+        "recall": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        }
+      },
+      "conflict": {
+        "recall": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 12,
+          "denominator": 12,
+          "value": 1.0
+        }
+      }
+    },
+    "parse_coverage": {
+      "numerator": 72,
+      "denominator": 72,
+      "value": 1.0
+    },
+    "invalid_output": {
+      "numerator": 0,
+      "denominator": 72,
+      "value": 0.0
+    },
+    "network_error": 0,
+    "unrun": 0,
+    "action_accuracy": {
+      "numerator": 72,
+      "denominator": 72,
+      "value": 1.0
+    },
+    "pair_joint": {
+      "numerator": 36,
+      "denominator": 36,
+      "value": 1.0
+    },
+    "pair_difference": {
+      "numerator": 0,
+      "denominator": 36,
+      "value": 0.0
+    },
+    "pair_coverage": {
+      "numerator": 36,
+      "denominator": 36,
+      "value": 1.0
+    },
+    "pair_decomposition": {
+      "both_correct": 36,
+      "both_wrong": 0,
+      "one_correct": 0,
+      "invalid_or_unrun": 0
+    },
+    "withdrawal": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "unsupported_reversal": {
+      "numerator": 0,
+      "denominator": 12,
+      "value": 0.0
+    },
+    "independent_retention": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "irrelevant_retention": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "conflict_recognition": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "restoration": {
+      "numerator": 12,
+      "denominator": 12,
+      "value": 1.0
+    },
+    "certificate_validity": {
+      "numerator": 72,
+      "denominator": 72,
+      "value": 1.0
+    },
+    "stale_evidence": {
+      "numerator": 0,
+      "denominator": 72,
+      "value": 0.0
+    },
+    "full_trajectory_success": null,
+    "families": 6
+  },
+  "by_condition": {
+    "A": {
+      "accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 12,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "B": {
+      "accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 12,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "C": {
+      "accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 4,
+            "denominator": 4,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 12,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 24,
+        "denominator": 24,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 24,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "by_case": {
+    "S01": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S02": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S03": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S04": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S05": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    },
+    "S06": {
+      "accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "macro_f1": 0.25,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 6,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "independent_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "irrelevant_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "conflict_recognition": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "restoration": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 12,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 1
+    }
+  },
+  "by_pair_type": {
+    "legal_path": {
+      "accuracy": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 18,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 18,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    },
+    "assistant_only": {
+      "accuracy": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "classes": {
+        "supported": {
+          "recall": {
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0
+          }
+        },
+        "refuted": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        },
+        "unknown": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        },
+        "conflict": {
+          "recall": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          },
+          "precision": {
+            "numerator": 6,
+            "denominator": 6,
+            "value": 1.0
+          }
+        }
+      },
+      "parse_coverage": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "invalid_output": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "network_error": 0,
+      "unrun": 0,
+      "action_accuracy": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "pair_joint": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_difference": {
+        "numerator": 0,
+        "denominator": 18,
+        "value": 0.0
+      },
+      "pair_coverage": {
+        "numerator": 18,
+        "denominator": 18,
+        "value": 1.0
+      },
+      "pair_decomposition": {
+        "both_correct": 18,
+        "both_wrong": 0,
+        "one_correct": 0,
+        "invalid_or_unrun": 0
+      },
+      "withdrawal": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "unsupported_reversal": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "independent_retention": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "irrelevant_retention": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "conflict_recognition": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "restoration": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "certificate_validity": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1.0
+      },
+      "stale_evidence": {
+        "numerator": 0,
+        "denominator": 36,
+        "value": 0.0
+      },
+      "full_trajectory_success": null,
+      "families": 6
+    }
+  },
+  "errors": [],
+  "notes": [
+    "mock is engineering validation only",
+    "trajectory not evaluated: endpoint-only run",
+    "withdrawal scope errors need manual review; state alone does not identify mechanism",
+    "M2 descriptive only; no significance claims"
+  ]
+}

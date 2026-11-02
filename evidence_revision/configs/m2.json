@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "scope": "M0-M2 offline; no training",
+  "seed": 42,
+  "temperature": 0,
+  "max_output_tokens": 256,
+  "prompt_settings": ["ordinary", "strong"],
+  "pair_types": ["legal_path", "assistant_only"],
+  "history_mode": "injected",
+  "logical_units_per_prompt_per_pair_type": 36,
+  "logical_units_per_prompt_total": 72,
+  "human_review": "pending",
+  "paid_budget_authorized": false
+}

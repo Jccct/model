@@ -1,0 +1,18 @@
+[
+  {
+    "source": "Codex_Execution_Plan.docx",
+    "sha256": "8a011d21eae5a5a27f3ff6c976b5aa6db223ee6a321f6eab07a4627336d6c32c",
+    "extracted_paragraph_lines": 208,
+    "text_sha256": "9b24b1c38b20a1568474747af6b19403f49690a2843550aa047655d21523d5c5",
+    "coverage": "all word/document.xml paragraphs including tables; embedded illustrations not OCRed",
+    "embedded_figures_review": "Mentor images image1 and image2 viewed in full; execution plan has no embedded image"
+  },
+  {
+    "source": "证据撤回与选择性信念修正论文及实验执行指南.docx",
+    "sha256": "358589aabac3e0feaeea63fb8948ed50862bed4abfb148813bf894687d0e3d15",
+    "extracted_paragraph_lines": 643,
+    "text_sha256": "6588853ba7654ba4c3419eb9babe604476ed1001ceb3b68896c4d38bca7ae338",
+    "coverage": "all word/document.xml paragraphs including tables; embedded illustrations not OCRed",
+    "embedded_figures_review": "Mentor images image1 and image2 viewed in full; execution plan has no embedded image"
+  }
+]
